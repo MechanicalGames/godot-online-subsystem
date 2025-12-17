@@ -1,6 +1,6 @@
-# Contributing to Godot Online Subsystem
+# Contributing to Godot Online Subsystem by Mechanical Games
 
-Thank you for your interest in contributing to the Godot Online Subsystem! We welcome contributions from the community.
+Thank you for your interest in contributing to the Godot Online Subsystem by Mechanical Games! We welcome contributions from the community.
 
 ## Table of Contents
 
@@ -83,15 +83,6 @@ cd godot-online-subsystem
 - Follow the DRY (Don't Repeat Yourself) principle
 - Write self-documenting code with meaningful names
 
-### GDScript Style
-
-If contributing GDScript code:
-
-- Use **snake_case** for variables and functions
-- Use **PascalCase** for classes
-- Use **UPPER_CASE** for constants
-- Indent with **tabs** (Godot standard)
-- Follow the [official GDScript style guide](https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_styleguide.html)
 
 ### C++ Style (if applicable)
 
@@ -118,11 +109,12 @@ If contributing C++ code:
 - Use the imperative mood ("Move cursor to..." not "Moves cursor to...")
 - Limit the first line to 72 characters or less
 - Reference issues and pull requests liberally after the first line
+- Make use of [GitMoji](https://gitmoji.dev/) and [GitMoji CLI](https://github.com/carloscuesta/gitmoji-cli) to define the type
 
 ### Commit Message Format
 
 ```
-<type>: <subject>
+<type> <subject>
 
 <body>
 
@@ -130,17 +122,18 @@ If contributing C++ code:
 ```
 
 **Types:**
-- `feat`: A new feature
-- `fix`: A bug fix
-- `docs`: Documentation only changes
-- `style`: Code style changes (formatting, missing semicolons, etc.)
-- `refactor`: Code change that neither fixes a bug nor adds a feature
-- `test`: Adding or updating tests
-- `chore`: Changes to build process or auxiliary tools
+- `✨ :sparkles:`: A new feature
+- `🐛 :memo:`: A bug fix
+- `📝 :memo:`: Documentation only changes
+- `🎨 :art:`: Code style changes (formatting, missing semicolons, etc.)
+- `♻️ :recycle:`: Code change that neither fixes a bug nor adds a feature
+- `🧪 :test_tube:`: Add a failing test
+- `✅ :white_check_mark:`: Add, update, or pass tests
+- `👷 :construction_worker:`: Changes to build process or auxiliary tools
 
 **Example:**
 ```
-feat: Add Steam authentication support
+✨ Add Steam authentication support
 
 Implement Steam authentication provider for the online subsystem.
 This allows games to authenticate users through Steam.

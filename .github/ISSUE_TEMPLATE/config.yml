@@ -1,8 +1,8 @@
 blank_issues_enabled: true
 contact_links:
-  - name: GitHub Discussions
-    url: https://github.com/MechanicalGames/godot-online-subsystem/discussions
-    about: Ask questions and discuss ideas with the community
   - name: Code of Conduct
     url: https://github.com/MechanicalGames/godot-online-subsystem/blob/main/CODE_OF_CONDUCT.md
     about: Please review our Code of Conduct
+  - name: Contributing Guidelines
+    url: https://github.com/MechanicalGames/godot-online-subsystem/blob/main/CONTRIBUTING.md
+    about: Learn how to contribute to this project

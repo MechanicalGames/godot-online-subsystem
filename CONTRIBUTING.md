@@ -221,6 +221,6 @@ For repository maintainers, see [`.github/WORKFLOW_SETUP.md`](.github/WORKFLOW_S
 
 ## Questions?
 
-Feel free to open an issue with your question or reach out to the maintainers through [GitHub Discussions](https://github.com/MechanicalGames/godot-online-subsystem/discussions).
+Feel free to open an issue with your question or reach out to the maintainers. For general questions and community discussions, check if [GitHub Discussions](https://github.com/MechanicalGames/godot-online-subsystem/discussions) is enabled for this repository.
 
 Thank you for contributing! 🎮

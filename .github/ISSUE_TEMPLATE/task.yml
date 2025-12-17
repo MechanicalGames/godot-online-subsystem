@@ -1,0 +1,49 @@
+name: Task
+description: Development team-facing task (infrastructure, tooling, process improvements)
+title: "[Task]: "
+labels: ["task"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This template is for **development team-facing tasks** - work items related to infrastructure, tooling, processes, or internal improvements that don't directly affect end users of the extension.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Task Description
+      description: A clear and concise description of the task.
+      placeholder: Describe the task...
+    validations:
+      required: true
+
+  - type: textarea
+    id: objectives
+    attributes:
+      label: Objectives
+      description: What should be accomplished by completing this task?
+      placeholder: |
+        - Objective 1
+        - Objective 2
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance-criteria
+    attributes:
+      label: Acceptance Criteria
+      description: How will we know this task is complete?
+      placeholder: |
+        - [ ] Criterion 1
+        - [ ] Criterion 2
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Add any other context, links, or references about the task.
+      placeholder: Add any additional context here...
+    validations:
+      required: false

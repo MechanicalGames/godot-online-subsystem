@@ -6,12 +6,16 @@ Thank you for your interest in contributing to the Godot Online Subsystem by Mec
 
 - [Code of Conduct](#code-of-conduct)
 - [How Can I Contribute?](#how-can-i-contribute)
+  - [Issue Types](#issue-types)
+  - [Reporting Bugs](#reporting-bugs)
+  - [Suggesting Features](#suggesting-features)
+  - [Creating Tasks](#creating-tasks)
+  - [Pull Requests](#pull-requests)
 - [Development Setup](#development-setup)
 - [Coding Standards](#coding-standards)
 - [Commit Guidelines](#commit-guidelines)
 - [Pull Request Process](#pull-request-process)
-- [Reporting Bugs](#reporting-bugs)
-- [Suggesting Enhancements](#suggesting-enhancements)
+- [Project Board and Workflow](#project-board-and-workflow)
 
 ## Code of Conduct
 
@@ -19,25 +23,55 @@ This project and everyone participating in it is governed by our [Code of Conduc
 
 ## How Can I Contribute?
 
+### Issue Types
+
+We categorize issues into three main types. Please use the appropriate issue template when creating a new issue:
+
+#### Feature (User-Facing)
+Use the **Feature Request** template for functionality that will be used by consumers of the GD Extension. This includes:
+- New APIs or interfaces for game developers
+- Player-facing features (authentication, matchmaking, etc.)
+- New platform integrations
+- Enhancements to existing user-facing functionality
+
+#### Task (Development Team-Facing)
+Use the **Task** template for development team-facing work. This includes:
+- Infrastructure improvements
+- Build system updates
+- CI/CD pipeline work
+- Documentation infrastructure
+- Repository management and tooling
+- Internal process improvements
+
+#### Bug
+Use the **Bug Report** template for reporting issues or defects in existing functionality.
+
 ### Reporting Bugs
 
-Before creating bug reports, please check the existing issues to avoid duplicates. When you create a bug report, include as many details as possible:
+Before creating bug reports, please check the existing issues to avoid duplicates. Use the **Bug Report** issue template, which will guide you through providing:
 
-- **Use a clear and descriptive title**
-- **Describe the exact steps to reproduce the problem**
-- **Provide specific examples** to demonstrate the steps
-- **Describe the behavior you observed** and what you expected to see
-- **Include screenshots or animated GIFs** if relevant
-- **Note your environment**: Godot version, OS, etc.
+- **Clear and descriptive title**
+- **Steps to reproduce the problem**
+- **Expected vs. actual behavior**
+- **Environment information**: Godot version, OS, extension version
+- **Screenshots or logs** if relevant
 
-### Suggesting Enhancements
+### Suggesting Features
 
-Enhancement suggestions are tracked as GitHub issues. When creating an enhancement suggestion:
+Use the **Feature Request** template for user-facing enhancements. The template will guide you through:
 
-- **Use a clear and descriptive title**
-- **Provide a detailed description** of the suggested enhancement
-- **Explain why this enhancement would be useful** to most users
-- **List any alternatives** you've considered
+- **Clear description** of the feature
+- **Use case** explaining why it would be useful
+- **Alternative solutions** you've considered
+- **Additional context** like examples or mockups
+
+### Creating Tasks
+
+Use the **Task** template for development team-facing work items. The template will guide you through:
+
+- **Task description** and objectives
+- **Acceptance criteria** for completion
+- **Additional context** and references
 
 ### Pull Requests
 
@@ -160,8 +194,33 @@ Closes #123
    - All tests pass
    - All conversations are resolved
 
+## Project Board and Workflow
+
+### Automated Issue Tracking
+
+All issues and pull requests are automatically added to our GitHub Project board through automated workflows. This ensures:
+- Single source of truth for task tracking
+- Visibility into project progress
+- Clear prioritization and status tracking
+
+### Issue Labels
+
+Issues are automatically labeled based on their type:
+- `feature` - User-facing functionality
+- `task` - Development team-facing work
+- `bug` - Defects and issues
+
+Additional labels may be added to provide more context about:
+- Priority (high-priority, etc.)
+- Status (in-progress, blocked, etc.)
+- Platform or component (steam, eos, core, etc.)
+
+### Workflow Setup
+
+For repository maintainers, see [`.github/WORKFLOW_SETUP.md`](.github/WORKFLOW_SETUP.md) for detailed instructions on configuring the project board integration.
+
 ## Questions?
 
-Feel free to open an issue with your question or reach out to the maintainers.
+Feel free to open an issue with your question or reach out to the maintainers through [GitHub Discussions](https://github.com/MechanicalGames/godot-online-subsystem/discussions).
 
 Thank you for contributing! 🎮
